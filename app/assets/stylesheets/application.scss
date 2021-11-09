@@ -1,0 +1,38 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(217, 192, 240);
+  padding: 15px;
+}
+
+#task-name {
+  margin-top: 10px;
+}
+
+.container .form-check #task-title {
+  text-decoration: none;
+  color: rgb(46, 6, 83);
+  font-size: 20px;
+}
+
+#add-task {
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgb(234, 211, 255);
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  &:hover {
+    color: rgb(46, 6, 83);
+  }
+}
+
+.new-task {
+  margin-top: 20px;
+}
